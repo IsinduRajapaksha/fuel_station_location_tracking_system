@@ -1012,7 +1012,7 @@
             {
                 id: 6,
                 name: "Trincomalee IOC",
-                brand: "IOC",
+                brand: "Lanka IOC",
                 latitude: 8.5778,
                 longitude: 81.2336,
                 address: "Main Street, Trincomalee",
@@ -1066,11 +1066,10 @@
         // Custom markers with different colors for different brands
         function createMarkerIcon(brand) {
             const colors = {
-                'Ceylon Petroleum Corporation': '#e74c3c',
-                'Lanka IOC': '#3498db',
-                'Rpml': '#f39c12',
-                'Sinopec': '#27ae60',
-                'IOC': '#9b59b6',
+                'Ceylon Petroleum Corporation': '#b51200ff',
+                'Lanka IOC': '#d7c607ff',
+                'Rpml': '#1006c6ff',
+                'Sinopec': '#08883dff',
                 'default': '#34495e'
             };
             
